@@ -45,6 +45,8 @@ func GetTiktokExpirationDateInUrl(rawUrl string) int64 {
 
 func main() {
 	parsed := GetTiktokExpirationDateInUrl("https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/937d1ef6b8394d7099342a8c77a7cc6e?x-expires=1637848800&x-signature=6A62m2S5fLHUQ2MLxIiq9kBGHQ8%3D")
-
+	
+	// test commit
 	fmt.Println("parsed:", parsed)
 }
+
